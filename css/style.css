@@ -2,30 +2,5 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 body {
-    background-color: brown;
-
-}
-html, body {
-    margin: 0px;
-    padding: 0px;
-}
-header {
-    text-align: center;
-    color: rgba(231, 25, 18, 0.966);
-    background-color: blue;
-}
-header img {
-    width: 200px;
-    height: 200px;
-    border: 12px solid black;
-    border-radius: 50%;
-    background-color: white;
-    margin-top: 6px;
-}
-header div {
-    text-align: center;
-    font-family: Roboto, Arial;
-    margin-top: 20px;
-    font-size: large;
-    color: white;
+    background-color: :-moz-only-whitespace
 }
