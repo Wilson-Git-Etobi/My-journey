@@ -27,3 +27,29 @@ header img {
     box-sizing: bold;
     padding: 12px;
 }
+main {
+    margin: 0px;
+    padding: 0px;
+    background-color: orange;
+    text-align: center;
+}
+main img {
+
+    width: 200px;
+    height: 200p;
+    border: 12px solid blue;
+    cursor: pointer;
+}
+h2, p {
+    font-family: Roboto, Arial;
+    font-size: 20px;
+    cursor: pointer;
+}
+p:hover {
+    background-color: rgb(83, 78, 78);
+    transition-duration: 0.12ms;
+}
+li:hover {
+    background-color: aqua;
+    transition: 0.1s;
+}
