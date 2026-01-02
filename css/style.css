@@ -2,5 +2,28 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 body {
-    background-color: :-moz-only-whitespace
+    background-color: white;
+}
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    background-color: blue;
+    text-align: center;
+}
+header img {
+    width: 200px;
+    height: 200px;
+    border: 12px solid yellow;
+    border-radius: 50%;
+    background-color: white;
+    margin-top: 6px;
+}
+ div {
+    font-family: Roboto, Arial;
+    font-size: 25px;
+    color: red;
+    box-sizing: bold;
+    padding: 12px;
 }
