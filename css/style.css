@@ -50,6 +50,17 @@ p:hover {
     transition-duration: 0.12ms;
 }
 li:hover {
-    background-color: aqua;
-    transition: 0.1s;
+    background-color: aquamarine;
+}
+ol {
+    list-style: left;
+}
+a {
+    color: #f01111;
+}
+a:hover {
+    color: green;
+}
+a:active {
+    color: yellowgreen;
 }
