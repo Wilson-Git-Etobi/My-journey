@@ -98,6 +98,18 @@ footer {
 .we-content {
     display: inline-block;
     margin: 0px;
+    border: 6px solid brown;
+    border-radius: 15px;
+    background-color: rgb(83, 78, 78);
+}
+.we-content:hover {
+    background-color: purple;
+    color: red;
+    cursor: pointer;
+}
+.we-content:active {
+    background-color: blueviolet;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 h1 {
     margin-bottom: 0px;
