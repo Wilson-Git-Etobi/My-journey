@@ -1,6 +1,10 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+p {
+    margin: 0px;
+    padding: 0px;
+}
 body {
     background-color: white;
 }
@@ -30,7 +34,7 @@ header img {
 main {
     margin: 0px;
     padding: 0px;
-    background-color: orange;
+    background-color: orchid;
     text-align: center;
 }
 main img {
@@ -63,4 +67,51 @@ a:hover {
 }
 a:active {
     color: yellowgreen;
+}
+footer {
+    background-color: rgb(123, 123, 212);
+    margin: 0px;
+    padding: 0px;
+}
+h2 {
+    text-align: center;
+    margin-left: 4px;
+    margin-top: 6px;
+}
+.copyright-content {
+    display: block;
+}
+.content {
+    display: block;
+    color: black; 
+    margin: 0px; 
+}
+.do-content {
+    display: inline-block;
+    margin: 0px;
+}
+footer {
+    text-align: 
+    center;
+    margin-top: 4px;
+}
+.we-content {
+    display: inline-block;
+    margin: 0px;
+}
+h1 {
+    margin-bottom: 0px;
+    padding: 0%;
+}
+button {
+    background-color: red;
+    color: white;
+    width: 45px;
+    height: 20px;
+
+}
+button:hover {
+    background-color: green;
+    color: black;
+    cursor: pointer;
 }
