@@ -1,9 +1,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-p {
+.p {
     margin: 0px;
-    padding: 0px;
+    padding: 0px 20px;
 }
 body {
     background-color: white;
@@ -77,6 +77,7 @@ h2 {
     text-align: center;
     margin-left: 4px;
     margin-top: 6px;
+    padding: 0px;
 }
 .copyright-content {
     display: block;
@@ -101,11 +102,14 @@ footer {
     border: 6px solid brown;
     border-radius: 15px;
     background-color: rgb(83, 78, 78);
+    padding: 0px;
 }
 .we-content:hover {
     background-color: purple;
     color: red;
     cursor: pointer;
+    margin-bottom: opx;
+    margin: 0px;
 }
 .we-content:active {
     background-color: blueviolet;
@@ -126,4 +130,8 @@ button:hover {
     background-color: green;
     color: black;
     cursor: pointer;
+}
+@media (max-width 600px)
+body {
+    font-size: 16px;
 }
